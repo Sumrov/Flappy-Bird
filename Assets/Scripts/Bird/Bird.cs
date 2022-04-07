@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 public class Bird : MonoBehaviour
-{
+{//kjb
     private BirdMover _mover;
     private int _score;
 
