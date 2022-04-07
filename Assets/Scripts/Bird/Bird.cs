@@ -10,7 +10,7 @@ public class Bird : MonoBehaviour
 
     public event UnityAction GameOver;
     public event UnityAction<int> ScoreChanged;
-
+    
     private void Start()
     {
         _mover = GetComponent<BirdMover>();
