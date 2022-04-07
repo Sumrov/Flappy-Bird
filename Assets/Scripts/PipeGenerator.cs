@@ -30,6 +30,8 @@ public class PipeGenerator : ObjectPool
                 Vector3 spawnPoint = new Vector3(transform.position.x, spawnPositionY, transform.position.z);
                 pipe.SetActive(true);
                 pipe.transform.position = spawnPoint;
+
+                DisableObjectAbroadScreen();
             }
         }
     }
